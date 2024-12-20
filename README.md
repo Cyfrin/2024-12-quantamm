@@ -26,6 +26,8 @@ LPs are no longer only chasing swap fees: the weights of the pool change to take
 
 The market making variant where weights change continuously over time is called Temporal Function Market Making (TFMM) 
 
+[Auditor Documentation Quickstart Package](https://docsend.com/view/s/8bx7x3vvjj6y44rh)
+
 ### Short Form protocol explainers
 
 Introductory business case for QuantAMM: [https://x.com/QuantAMMDeFi/status/1798725534865870964](https://x.com/QuantAMMDeFi/status/1798725534865870964)
