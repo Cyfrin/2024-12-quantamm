@@ -145,7 +145,7 @@ Hopefully, by that time, an update would be triggered or another update interval
 
 ### Actors
 
-**QuantAMM Admin** \- a timelock that will be referenced by most contracts for potential admin override functions. 
+**QuantAMM Admin (trusted)** \- a timelock that will be referenced by most contracts for potential admin override functions. 
 
 **Pool Owner** \- Creates and owns the pool, on creation it could be configured that the pool owner has certain admin rights or could be completely locked out. 
 
