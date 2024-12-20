@@ -282,7 +282,9 @@ forge test
 
 - UpliftOnlyExample router/hook ordering of donations and fee taking is known to have the same donation caveats related to Balancer base audit. 
 
-- Inability to deposit after the stated number of deposits is expected and the depositor/withdrawer is expected to have enough to pay for the gas of any of the operations including transfers that are more expensive. 
+- Inability to deposit after the stated number of deposits is expected and the depositor/withdrawer is expected to have enough to pay for the gas of any of the operations including transfers that are more expensive.
+
+- A pool creator can be approved for admin functionality, this gives wide control over reset strategy features and override weight features. This is not intended to be the case for anything other than pools with regulatory considerations or gated depositor pools. Normal pool creators will not be granted this privilege. There are various known potential malicious issues with approving pool creators to perform admin functions. If there is a pool where the pool creator has not been approved administrative function, manipulation of any aspect of the pool by the untrusted creator is in scope.
 
 [//]: # (known-issues-close)
 
