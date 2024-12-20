@@ -10,7 +10,7 @@
     
 - Starts:  December 20, 2024 Noon UTC
     
-- Ends: January 15, 2024 Noon UTC 
+- Ends: January 15, 2025 Noon UTC 
     
 - nSLOC:  3359
 
